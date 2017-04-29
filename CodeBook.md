@@ -10,7 +10,7 @@ The output was captured in the [Human Activity Recognition Using Smartphones Dat
 
 After downloading and reading the files from the data set, following data sets were required to get the tidy data set:
 
-### [Description of each file is provided in README.md](https://github.com/NidaBat/CourseraGettingAndCleaningDataProject/edit/master/README.md)
+### [Description of each file is provided in README.md](https://github.com/NidaBat/CourseraGettingAndCleaningDataProject/blob/master/README.md)
 
 ### Subject Identifier
 This variable takes the value 1-30 representing the subject number in the experiment.
@@ -23,12 +23,13 @@ This variable represents the activity of the subjects, when the measurements are
 #### [1] "activityid"
 These represent the activity labels, that will appear in the Activity Identifier
 
-#####  "walking"            "walking_upstairs"   "walking_downstairs"
-#####  "sitting"            "standing"           "laying"
+#####  "walking",            "walking_upstairs",   "walking_downstairs"
+#####  "sitting",            "standing",          "laying"
 
 Each person performs six activities mentioned above. These are represented as in the tidy data set as {1-6} respectively.
 
-### Measurements: #### Description of the variables in the tidy data set
+### Measurements 
+#### Description of the variables in the tidy data set
 Finally each of the measurements in the tidy datasets represents an aggregation by mean for each activity and subject accordingly. Measurements representing Subjects 1 Walking activity are the average of all the measurements identified as subject_id = 1 and Activity: Walking.
 
 
