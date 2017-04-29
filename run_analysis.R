@@ -1,5 +1,4 @@
 # Set the working directory
-getwd()
 setwd("~/Desktop/coursera")
 
 # Download files from "Human Activity Recognition Using Smartphones" Data Set 
