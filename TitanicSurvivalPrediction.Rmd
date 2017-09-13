@@ -1,0 +1,34 @@
+---
+title: "Titanic Survival Prediction"
+author: "Nida Batt"
+date: "9/13/2017"
+output: ioslides_presentation
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+- This presentation contains documentation for the `Titanic Survival Prediction` application. The application can be found [**here on Shiny**](https://nidabatt.shinyapps.io/shinyLM/).
+- The `Data Source` for `Titanic` is downloaded [**here from Kaggle**](https://www.kaggle.com/c/titanic/data).
+- The source code for `Data Prepration`, `ui.R` and `server.R` is available at the [**here at the Github repo**](https://github.com/NidaBat/Shiny-Application-and-Reproducible-Pitch).
+
+## Titanic Data Summary
+```{r echo=FALSE}
+titanic <-read.csv("train.test_com.csv", header = TRUE)
+```
+This data set contains the information about `r nrow(titanic)` passengers with `r ncol(titanic)` variables:
+```{r, comment="", echo=TRUE}
+head(titanic)
+```
+## Titanic Survival Prediction Functionality
+The application is built using `Logistic Regression Model` from `Titanic` dataset and it predicts wether the passenger onboard Titanic survived or not. The application allows the user to select:
+
+- Passenger Class - Family Size - Title - Age - Port of Embarkation - Sex
+- Based on the above selection, the model predicts whether the passenger survived or not (1: Survived, 0: Not Survived).
+- User can also see the scatter plot to visualize the survival probability of the passengers.
+
+## Shiny Application
+![alt text](/Users/sarmadbatt/Desktop/coursera/shinyLM/image1.png)
+
+
