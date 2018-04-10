@@ -98,14 +98,13 @@ Viewing the Shiny App
 <script type="text/javascript">
 function improve_text() {
   return "Possible ideas to improve the App:\n\n"+
-  "· Use of other techniques to get machine prediction, like "+ "interpolated Kneser-Ney Smoothing, pure Katz Back-Off or Good-Turing discounting;\n\n"+
-  "· Adapt to other languages, like Portuguese (my native language), using a Brazilian corpus.";
+  "· Use of other techniques to get machine prediction, like "+ "interpolated Kneser-Ney Smoothing, pure Katz Back-Off or Good-Turing discounting;
 }
 </script>
   
-- <a href="https://svicente99.shinyapps.io/NextWord/" target="_blank" style="color:maroon">Link to __Shiny App__</a>&nbsp; &larr;&larr;&nbsp;
+- <a href="https://nidabatt.shinyapps.io/Swiftkey/" target="_blank" style="color:maroon">Link to __Shiny App__</a>&nbsp; &larr;&larr;&nbsp;
 *_Use it!_*
 
-- <a href="http://github.com/svicente99/DataScience_Capstone_ShinyApp" target="_blank">__GitHub__ repository code to this application</a>
+- <a href="https://github.com/NidaBat/R-Projects/tree/master/Swiftkey_Prediction_NPL" target="_blank">__GitHub__ repository code to this application</a>
 
 - <a href="javascript:alert(improve_text())">Possible improvements</a>...
